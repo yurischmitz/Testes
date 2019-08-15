@@ -30,7 +30,7 @@ public class Testes {
          pessoa2.setDebito(0);
          
          if(pessoa1.getDebito() > 0 && pessoa2.getDebito() > 0){
-             System.out.println("VOCÊ ESTÁ TENTANDO TRANSFERIR PARA DUAS CONTAS AO MESMO TEMPO");
+             System.out.println("\n\n\t\t\tVOCÊ ESTÁ TENTANDO TRANSFERIR PARA DUAS CONTAS AO MESMO TEMPO\n\n");
          } else {
              if(pessoa2.getSaldo() >= pessoa2.getDebito() && pessoa2.getDebito() > 0){
                //depositando para o Yuri
@@ -40,7 +40,7 @@ public class Testes {
                System.out.println(pessoa1);
                System.out.println(pessoa2);
             } else if(pessoa2.getDebito() > pessoa2.getSaldo()){
-                System.out.println("VALOR MUITO ALTO");
+                System.out.println("\n\nVALOR MUITO ALTO\n\n");
             }
 
             if(pessoa1.getSaldo() >= pessoa1.getDebito()&& pessoa1.getDebito() > 0){
@@ -51,7 +51,7 @@ public class Testes {
                System.out.println(pessoa1);
                System.out.println(pessoa2);
             } else if(pessoa1.getDebito() > pessoa1.getSaldo()){
-                System.out.println("VALOR MUITO ALTO");
+                System.out.println("\n\nVALOR MUITO ALTO\n\n");
             }
          }
     }   
