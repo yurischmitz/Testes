@@ -22,11 +22,11 @@ public class Testes {
          
          
          pessoa1.setNome("Yuri");
-         pessoa1.setSaldo(1000);
-         pessoa1.setDebito(200);
+         pessoa1.setSaldo(500);
+         pessoa1.setDebito(0);
          
          pessoa2.setNome("Cris");
-         pessoa2.setSaldo(1000);
+         pessoa2.setSaldo(500);
          pessoa2.setDebito(0);
          
          if(pessoa1.getDebito() > 0 && pessoa2.getDebito() > 0){
